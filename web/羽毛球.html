@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>羽毛球</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("../image/羽毛球场.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .header a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            gap: 40px; /* 图片之间的间隔 */
+            padding-top: 60px; /* 整个容器往下一些 */
+            width: 100%;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wen {
+            text-align: center;
+            margin-top: 10px;
+            word-wrap: break-word; /* 确保长单词或URL地址也能正确换行 */
+            width: 300px; /* 与图片宽度相同，可以根据需要调整 */
+            font-size: 18px; /* 调整字体大小 */
+        }
+        img {
+            height: 300px; /* 照片的高度 */
+            width: 300px; /* 照片的宽度 */
+            object-fit: cover; /* 保持图片比例 */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="../web/zr.html">主页</a>
+        <a href="羽毛球.html">羽毛球</a>
+        <a href="围棋.html">围棋</a>
+        <a href="崩坏星穹铁道.html">崩坏星穹铁道</a>
+        <a href="音乐.html">音乐</a>
+    </div>
+    <div id="container">
+        <!-- 一行四张图片和介绍 -->
+        <div class="column">
+            <img src="../image/林丹.jpeg" alt="林丹">
+            <div class="wen">
+                林丹是中国羽毛球历史上最具影响力的运动员之一，以其全面的技术和竞技精神闻名。他以其出色的速度、力量和战术灵活性，在羽毛球界树立了标杆。林丹以其独特的打法和对比赛的深刻理解，赢得了全球球迷的尊敬。他的职业生涯见证了他对羽毛球运动的热爱和对卓越的不懈追求，成为了激励年轻运动员的榜样。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/李宗伟.png" alt="李宗伟">
+            <div class="wen">
+                李宗伟以其坚韧不拔的精神和谦逊的态度在羽毛球界留下了深刻的印记。他的职业生涯虽然缺少了世界冠军的奖杯，但他对羽毛球的热爱和对卓越的追求从未停歇。李宗伟展现了一种超越胜负的体育精神，即使面对失败，他也能坦然接受并以更加坚定的姿态重新出发。他的坚持和勇气，以及在逆境中不断挑战自我、永不言败的态度，成为了他独特的标签，激励着无数人。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/谌龙.jpg" alt="谌龙">
+            <div class="wen">
+                谌龙是林李后时代另一位强者。他在球场上的风格极具特色，在防守方面更是被誉为“万里长城”。不仅如此，他还积极普及羽毛球相关知识技巧。“三十年经验，三十秒拿去”是他视频的“防伪标志”。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/石宇奇.jpg" alt="石宇奇">
+            <div class="wen">
+                石宇奇是中国羽毛球运动员，以其快速的步伐和强力的击球著称。在这个时代，石宇奇可以称得上是球商最高的选手，他的球路多变，而且擅长随机应变。虽然脚踝的伤病让他接连失利，虽然他自己也自嘲为最水世界第一，但他依旧在追赶着，努力扛起国羽男单的大旗。
+            </div>
+        </div>
+    </div>
+</body>
+</html>

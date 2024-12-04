@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>音乐</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("../image/音乐背景.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .header a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        #container {
+            display: flex;
+            justify-content: center;
+            gap: 700px; /* 图片之间的间隔 */
+            padding-top: 200px; /* 整个容器往下一些 */
+            width: 100%;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wen {
+        text-align: center;
+        margin-top: 10px;
+        word-wrap: break-word; /* 确保长单词或URL地址也能正确换行 */
+        width: 300px; /* 与图片宽度相同，可以根据需要调整 */
+        font-size: 20px; /* 调整字体大小 */
+        font-weight: bold; /* 加粗字体 */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
+        color: #f1c215; /* 将字体颜色改为蓝色 */
+        background-color:rgb(183, 144, 97, 0.3);
+        }
+        img {
+            height: 300px; /* 照片的高度 */
+            width: 300px; /* 照片的宽度 */
+            object-fit: cover; /* 保持图片比例 */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="../web/zr.html">主页</a>
+        <a href="羽毛球.html">羽毛球</a>
+        <a href="围棋.html">围棋</a>
+        <a href="崩坏星穹铁道.html">崩坏星穹铁道</a>
+        <a href="音乐.html">音乐</a>
+    </div>
+    <div id="container">
+        <!-- 一行四张图片和介绍 -->
+        <div class="column">
+            <img src="../image/薛之谦.jpg" alt="薛之谦">
+            <div class="wen">
+                薛之谦是才华横溢的歌手和创作人，以其深情的嗓音和深入人心的歌词广受喜爱。他的作品风格多样，或暗讽现实，或描写情爱。他也极具人格魅力，不会对粉丝摆高姿态，说话也十分幽默。我最喜欢的是他的《租购》、《动物世界》和《丑八怪》。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/米津玄师.jpeg" alt="米津玄师">
+            <div class="wen">
+                米津玄师是日本乐坛的全能型创作天才，以其独特的音乐风格和深入人心的歌词而闻名。他的音乐作品融合了摇滚、流行、电子等多种元素，展现出新颖而富有魅力的声音。米津玄师的歌词充满情感与哲学思考，以通俗易懂的方式表达人们内心的情感和追求，因此在年轻人中广受欢迎。他的音乐创作风格多变，从摇滚到电子，总能给粉丝带来惊喜。
+            </div>
+        </div>
+    </div>
+</body>
+</html>

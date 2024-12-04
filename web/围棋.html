@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>围棋</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url("../image/围棋.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        color: #333;
+        background-color: rgba(255, 255, 255, 0.5); /* 增加背景颜色和透明度 */
+    } 
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .header a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #000;
+    }
+    #container {
+        display: flex;
+        justify-content: center;
+        gap: 40px; /* 图片之间的间隔 */
+        padding-top: 60px; /* 整个容器往下一些 */
+        width: 100%;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wen {
+        text-align: center;
+        margin-top: 10px;
+        word-wrap: break-word; /* 确保长单词或URL地址也能正确换行 */
+        width: 300px; /* 与图片宽度相同，可以根据需要调整 */
+        font-size: 20px; /* 调整字体大小 */
+        font-weight: bold; /* 加粗字体 */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
+        color: #f1c215; /* 将字体颜色改为蓝色 */
+        background-color:rgb(183, 144, 97, 0.3);
+    }
+    img {
+        height: 300px; /* 照片的高度 */
+        width: 300px; /* 照片的宽度 */
+        object-fit: cover; /* 保持图片比例 */
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="../web/zr.html">主页</a>
+        <a href="羽毛球.html">羽毛球</a>
+        <a href="围棋.html">围棋</a>
+        <a href="崩坏星穹铁道.html">崩坏星穹铁道</a>
+        <a href="音乐.html">音乐</a>
+    </div>
+    <div id="container">
+        <div class="column">
+            <img src="../image/李世石.jpg" alt="李世石">
+            <div class="wen">
+                李世石在2010年前五年和后五年几乎可以说称霸了世界围棋棋坛。李世石的棋风以凶狠、锐利著称，善于在复杂局面中挑起战斗，凭借其强大的计算力和果断的决策能力，在乱战中寻找胜机，古李十番棋的大胜是他最标志性的胜利。之后，他更是代表着全人类去迎接来自AI的挑战。虽然最后落败，但他仍然称得上是人类的英雄。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/柯洁.jpeg" alt="柯洁">
+            <div class="wen">
+                柯洁以其独特的棋风和出色的棋艺在围棋界享有盛誉。他的棋风可以概括为“轻、飘、新、勇”，展现出灵动和创新的特点。柯洁的计算力极其强大，对局中常常展现出个性和自信，不拘泥于定式，其棋局往往初看不合理，细品却有其独到之处。同时，他对于胜负有着敏锐的感觉，被称为具有“胜负师”气质的棋手，能够在关键时刻把握住机会。柯洁的棋艺风格独特，不仅在布局上灵活多变，而且在中盘战斗力和官子水平上都有出色的表现。他的棋局常常充满灵感和天才创意，为围棋界带来许多精彩纷呈的比赛。
+            </div>
+        </div>
+        <div class="column">
+            <img src="../image/奖牌.jpg" alt="奖牌">
+            <div class="wen">
+                在初升高的暑假，我重新拾起两年没碰的围棋。在训练了一个月后，我跟随着队伍参加了市里的比赛。这次比赛我的发挥非常不错，最后拿下了亚军，并帮助团队拿下了团体第二的好成绩。现在我也经常下网棋，希望未来能有更多比赛的机会。
+            </div>
+        </div>
+    </div>
+</body>
+</html>
