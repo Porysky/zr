@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>周瑞的网页</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("image/首页.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            color: #ab1717;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .header a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        .header-left {
+            position: fixed; /* 固定位置 */
+            top: 0; /* 顶部 */
+            left: 0; /* 左侧 */
+            padding: 10px; /* 内边距 */
+            color: #fff; /* 文字颜色，白色 */
+            font-size: 24px; /* 文字大小 */
+            z-index: 1000; /* 确保在页面最上层 */
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，黑色，50%透明度 */
+        }
+        .wen {
+            text-align: center;
+            margin-top: 10px;
+            word-wrap: break-word; /* 确保长单词或URL地址也能正确换行 */
+            width: 300px; /* 与图片宽度相同，可以根据需要调整 */
+            font-size: 18px; /* 调整字体大小 */
+        }
+        img {
+            height: 300px; /* 照片的高度 */
+            width: 300px; /* 照片的宽度 */
+            object-fit: cover; /* 保持图片比例 */
+        }
+        table {
+            width: 100%;
+            margin-top: 300px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-left">
+        Welcome to Porysky's World
+    </div>
+    <div class="header">
+        <a href="web/zr.html">主页</a>
+        <a href="web/羽毛球.html">羽毛球</a>
+        <a href="web/围棋.html">围棋</a>
+        <a href="web/崩坏星穹铁道.html">崩坏星穹铁道</a>
+        <a href="web/音乐.html">音乐</a>
+    </div>
+    <table>
+        <caption>关于我</caption>
+        <tr>
+            <td>年龄</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>爱好</td>
+            <td>围棋，羽毛球，打电动</td>
+        </tr>
+        <tr>
+            <td>性格</td>
+            <td>时而抽象，时而冷静</td>
+        </tr>
+        <tr>
+            <td>最喜欢的动漫</td>
+            <td>《刀剑神域》，《咒术回战》，《名侦探柯南》</td>
+        </tr>
+        <tr>
+            <td>偶像</td>
+            <td>谌龙，石宇奇，薛之谦</td>
+        </tr>
+    </table>
+</body>
+</html>
